@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-import './Lista.css'; // Importe o arquivo de estilo do componente
-
+import './Lista.css';
 function Lista() {
   const [recipes, setRecipes] = useState([]);
 
